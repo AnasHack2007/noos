@@ -7,22 +7,24 @@
 .head{
     background:rgb(51, 50, 50);
     height:60px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     position: sticky;
     top:0;
+    display: flex;
+    padding-left: 500px;
 }
+
 
 
 .hh h1{
     font-size:25px;
     color:rgb(221, 220, 220);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 300px;
+    padding-top: 15px;
 }
 
-.b{
+
+.r{
     font-size: 20px;
     height: 35px;
     width: 100px;
@@ -33,9 +35,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border:none;
     transition: 0.9s;
+    margin-top: 15px;
 }
 
-.b:hover{
+.r:hover{
     transform: scale(1.1)
 }
 
@@ -50,6 +53,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border:none;
     transition: 0.9s;
+    margin-top: 15px;
 }
 
 .u:hover{
@@ -64,13 +68,13 @@
 .post h1 {
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size:33px;
-   color:rgb(95, 20, 51);
+   color :rgb(95, 20, 51);
 }
 
 .post p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px; 
-    color:rgb(52, 63, 163);
+    color:rgb(19, 26, 92);
 }
 
 .post ul li{
@@ -384,3 +388,1883 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 25px;
 }
+
+@media  (min-width:290px){
+    .head{
+        height:40px; 
+        display: flex;
+        padding-left: 10px;
+    }
+     
+    .hh h1{
+        font-size:12px;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+     
+    .r{
+        font-size: 12px;
+        height: 25px;
+        width: 60px;
+        margin-left: 5px;
+        margin-top: 7px;
+        margin-right: 5px;
+    }
+    }
+    .u{
+        font-size: 12px;
+        height: 25px;
+        width: 60px;
+        margin-left: 5px;
+        margin-top: 7px;
+        margin-right: 5px;
+    }
+
+    .post h1 {
+        font-size:15px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 12px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: block;  
+        margin: 35px;
+    }
+
+    .img-1 img{
+        height: 150px;
+        width: 200px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 15px;
+    }
+    
+    .img-2 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+    
+    .img-3 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: block;
+        margin: 35px;
+    }
+
+    .img-4 img{
+        height: 150px;
+        width: 200px;
+    }
+    
+    
+    .img-4 p{
+        font-size: 15px;
+    }
+    
+    .img-5 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+    
+    .img-6 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: block;
+        margin: 35px;
+    }
+
+    .img-7 img{
+        height: 150px;
+        width: 200px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 15px;
+    }
+    
+    .img-8 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+    
+    .img-9 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: block;
+        margin: 35px;
+    }
+     
+    .img-10 img{
+        height: 150px;
+        width: 200px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 15px;
+    }
+    
+    .img-11 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+    
+    .img-12 img{
+        height: 150px;
+        width: 200px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 15px;
+        margin-left: -1px;
+    }
+
+@media  (min-width:350px){
+    .head{
+        height:50px; 
+        display: flex;
+        padding-left: 60px;
+    }
+     
+    .hh h1{
+        font-size:12px;
+        padding-top: 15px;
+        margin-left: 15px;
+    }
+     
+    .r{
+        font-size: 13px;
+        height: 26px;
+        width: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 13px;
+        height: 26px;
+        width: 63px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:15px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 12px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: block;  
+        margin: 60px;
+    }
+
+    .img-1 img{
+        height: 180xpx;
+        width: 230px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-3 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: block;
+        margin: 60px;
+    }
+
+    .img-4 img{
+        height: 180xpx;
+        width: 230px;
+    }
+    
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-6 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: block;
+        margin: 60px;
+    }
+
+    .img-7 img{
+        height: 180xpx;
+        width: 230px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-9 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: block;
+        margin: 60px;
+    }
+     
+    .img-10 img{
+        height: 180xpx;
+        width: 230px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-12 img{
+        height: 180xpx;
+        width: 230px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+}
+@media  (min-width:420px){
+    .head{
+        height:50px; 
+        display: flex;
+        padding-left: 90px;
+    }
+     
+    .hh h1{
+        font-size:13px;
+        padding-top: 15px;
+        margin-left: 15px;
+    }
+     
+    .r{
+        font-size: 13px;
+        height: 28px;
+        width: 65px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 13px;
+        height: 28px;
+        width: 65px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:16px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 13px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: block;  
+        margin: 70px;
+    }
+
+    .img-1 img{
+        height: 190xpx;
+        width: 240px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-3 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: block;
+        margin: 70px;
+    }
+
+    .img-4 img{
+        height: 190xpx;
+        width: 240px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-6 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: block;
+        margin: 70px;
+    }
+
+    .img-7 img{
+        height: 190xpx;
+        width: 240px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-9 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: block;
+        margin: 70px;
+    }
+     
+    .img-10 img{
+        height: 190xpx;
+        width: 240px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-12 img{
+        height: 190xpx;
+        width: 240px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+}
+@media  (min-width:520px){
+    .head{
+        height:50px; 
+        display: flex;
+        padding-left: 150px;
+    }
+     
+    .hh h1{
+        font-size:14px;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+     
+    .r{
+        font-size: 14px;
+        height: 30px;
+        width: 67px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 14px;
+        height: 30px;
+        width: 67px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:17px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 14px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: block;  
+        margin: 90px;
+    }
+
+    .img-1 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-3 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: block;
+        margin: 90px;
+    }
+
+    .img-4 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-6 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: block;
+        margin: 90px;
+    }
+
+    .img-7 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-9 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: block;
+        margin: 90px;
+    }
+     
+    .img-10 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-12 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+}
+@media  (min-width:520px){
+    .head{
+        height:50px; 
+        display: flex;
+        padding-left: 170px;
+    }
+     
+    .hh h1{
+        font-size:14px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+     
+    .r{
+        font-size: 15px;
+        height: 32px;
+        width: 69px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 15px;
+        height: 32px;
+        width: 69px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:18px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 15px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 11px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: block;  
+        margin: 100px;
+    }
+
+    .img-1 img{
+        height: 250xpx;
+        width: 300px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-3 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: block;
+        margin: 100px;
+    }
+
+    .img-4 img{
+        height: 250xpx;
+        width: 300px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-6 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: block;
+        margin: 100px;
+    }
+
+    .img-7 img{
+        height: 250xpx;
+        width: 300px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-9 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: block;
+        margin: 100px;
+    }
+     
+    .img-10 img{
+        height: 250xpx;
+        width: 300px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-12 img{
+        height: 250xpx;
+        width: 300px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+}
+@media  (min-width:520px){
+    .head{
+        height:50px; 
+        display: flex;
+        padding-left: 150px;
+    }
+     
+    .hh h1{
+        font-size:14px;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+     
+    .r{
+        font-size: 14px;
+        height: 30px;
+        width: 67px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 14px;
+        height: 30px;
+        width: 67px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:17px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 14px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: block;  
+        margin: 90px;
+    }
+
+    .img-1 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-3 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: block;
+        margin: 90px;
+    }
+
+    .img-4 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-6 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: block;
+        margin: 90px;
+    }
+
+    .img-7 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-9 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: block;
+        margin: 90px;
+    }
+     
+    .img-10 img{
+        height: 250xpx;
+        width: 290px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    
+    .img-12 img{
+        height: 250xpx;
+        width: 290px;
+        margin-left: -1px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+}
+@media  (min-width:700px){
+    .head{
+        height:60px; 
+        display: flex;
+        padding-left: 290px;
+    }
+     
+    .hh h1{
+        font-size:17px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+     
+    .r{
+        font-size: 17px;
+        height: 35px;
+        width: 75px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 17px;
+        height: 35px;
+        width: 75px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:18px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 15px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 11px;
+    }
+
+    .im{
+        margin-top:20px;
+        display:flex;
+        margin: 50px;
+    }
+
+    .img-1{
+        margin-right: 30px;
+    }
+
+    .img-1 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .img-3{
+        margin-top: 200px;
+        margin-left: -430px;
+      }
+      
+    .img-3 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: flex;
+        margin: 50px;
+    }
+
+    .img-4{
+        margin-right: 30px;
+    }
+
+    .img-4 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .img-6{
+        margin-top: 200px;
+        margin-left: -430px;
+      }
+    
+    .img-6 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .og{
+        margin-top:20px;
+        display: flex;
+        margin: 50px;
+    }
+
+    .img-7{
+        margin-right: 30px;
+    }
+
+
+    .img-7 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .img-9{
+        margin-top: 200px;
+        margin-left: -430px;
+      }
+    
+    .img-9 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+    .ig{
+        margin-top:20px;
+        display: flex;
+        margin: 50px;
+    }
+
+    .img-10{
+        margin-right: 30px;
+    }
+     
+    .img-10 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .img-12{
+        margin-top: 200px;
+        margin-left: -430px;
+      }
+    
+    .img-12 img{
+        height: 230xpx;
+        width: 280px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+        margin-left: -1px;
+    }
+}
+@media  (min-width:900px){
+    .head{
+        height:60px; 
+        display: flex;
+        padding-left: 350px;
+    }
+     
+    .hh h1{
+        font-size:18px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+     
+    .r{
+        font-size: 18px;
+        height: 35px;
+        width: 80px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 18px;
+        height: 35px;
+        width: 80px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:19px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 16px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 12px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: flex;
+        margin: 70px;
+    }
+
+    .img-1{
+        margin-right: 30px;
+    }
+
+    .img-1 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+    }
+
+    .img-3{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-3 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: flex;
+        margin: 70px;
+    }
+
+    .img-4{
+        margin-right: 30px;
+    }
+
+    .img-4 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+    }
+
+    .img-6{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-6 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+    }
+    .og{
+        margin-top:20px;
+        display: flex;
+        margin: 70px;
+    }
+
+    .img-7{
+        margin-right: 30px;
+    }
+
+
+    .img-7 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+    }
+
+    .img-9{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-9 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+
+    }
+    .ig{
+        margin-top:20px;
+        display: flex;
+        margin: 70px;
+    }
+
+    .img-10{
+        margin-right: 30px;
+    }
+     
+    .img-10 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+    }
+
+    .img-12{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-12 img{
+        height: 200px;
+        width: 250px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+    }
+}
+@media  (min-width:1200px){
+    .head{
+        height:60px; 
+        display: flex;
+        padding-left: 500px;
+    }
+     
+    .hh h1{
+        font-size:25px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+     
+    .r{
+        font-size: 20px;
+        height: 35px;
+        width: 100px;
+        margin-left: 170px;
+        margin-top: 10px;
+    }
+    .u{
+        font-size: 20px;
+        height: 35px;
+        width: 100px;
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .post h1 {
+        font-size:33px;
+        padding-right: 20px;
+     }
+     
+     .post p{
+         font-size: 16px; 
+
+     }
+
+     .post ul li{
+        margin: 10px;
+        padding-bottom: 12px;
+    }
+
+    .im{
+        margin-top:20px;
+        display: flex;
+        margin: 90px;
+    }
+
+    .img-1{
+        margin-right: 30px;
+    }
+
+    .img-1 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-1 p{
+        font-size: 18px;
+    }
+    
+    .img-2 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-2 p{
+        font-size: 18px;
+    }
+
+    .img-3{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-3 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-3 p{
+        font-size: 18px;
+    }
+
+    .mg{
+        margin-top:20px;
+        display: flex;
+        margin: 90px;
+    }
+
+    .img-4{
+        margin-right: 30px;
+    }
+
+    .img-4 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    .img-4 p{
+        font-size: 18px;
+    }
+    
+    .img-5 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-5 p{
+        font-size: 18px;
+    }
+
+    .img-6{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-6 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-6 p{
+        font-size: 18px;
+    }
+    .og{
+        margin-top:20px;
+        display: flex;
+        margin: 90px;
+    }
+
+    .img-7{
+        margin-right: 30px;
+    }
+
+
+    .img-7 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-7 p{
+        font-size: 18px;
+    }
+    
+    .img-8 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-8 p{
+        font-size: 18px;
+    }
+
+    .img-9{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-9 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-9 p{
+        font-size: 18px;
+
+    }
+    .ig{
+        margin-top:20px;
+        display: flex;
+        margin: 90px;
+    }
+
+    .img-10{
+        margin-right: 30px;
+    }
+     
+    .img-10 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-10 p{
+        font-size: 18px;
+    }
+    
+    .img-11 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-11 p{
+        font-size: 18px;
+    }
+
+    .img-12{
+        margin-top: -1px;
+        margin-left: 30px;
+      }
+    
+    .img-12 img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
+    .img-12 p{
+        font-size: 18px;
+    }
+}
+
